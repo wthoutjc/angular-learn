@@ -1,0 +1,4 @@
+<p>App current value {{ counter }}</p>
+
+<app-counter [counter]="counter" (onChange)="set($event)"></app-counter>
+<app-form [counter]="counter" (onSubmit)="set($event)"></app-form>

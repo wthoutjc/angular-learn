@@ -1,0 +1,7 @@
+<form (ngSubmit)="emitValue()">
+  <input type="number" placeholder="Type a value..." [(ngModel)]="counter" name="counter">
+  <button type="submit"> Set </button>
+</form>
+
+<p> Current value - {{ counter }} </p>
+<pre> {{ counter | json }} </pre>
